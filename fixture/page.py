@@ -3,6 +3,7 @@ import pytest
 import config
 from playwright.sync_api import Browser, BrowserContext, Page, sync_playwright
 
+page = 'https://www.google.com/'
 
 @pytest.fixture()
 def page() -> Page:
